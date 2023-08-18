@@ -33,12 +33,12 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'sql.freedb.tech',
-  'user' => 'freedb_xy001',
-  'password' => 'VGs*%zfxzVFx2BJ',
+  'host' => 'tiny.db.elephantsql.com',
+  'user' => 'oziyqvkd',
+  'password' => 'a8-Hx7bN-1-1MDFakZSHGyzG7YWsngXc',
   'charset' => 'utf8mb4',
   'port' => '3306',
-  'database' => 'freedb_typecho001',
+  'database' => 'oziyqvkd',
   'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
